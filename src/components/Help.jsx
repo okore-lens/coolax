@@ -34,6 +34,7 @@ const Help = () => {
     <div className="contact">
       <div className="wrapper">
         <div className="form-bg">
+          <h1>GET IN TOUCH WITH US ?</h1>
           <form>
             <div className="input-row">
               <input
