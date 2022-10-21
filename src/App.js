@@ -20,8 +20,8 @@ function App() {
       <div className="column">
         <Packages />
         <Help />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
