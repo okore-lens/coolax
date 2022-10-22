@@ -99,6 +99,20 @@
       p {
         font-size: 32px;
       }
+      .buttons {
+        button {
+          background-color: #fff5f5;
+          border: none;
+          min-width: 100px;
+          margin: 10px;
+          border-radius: 20px;
+          height: 37px;
+          &:hover {
+            cursor: pointer;
+            background-color: #0ba049;
+          }
+        }
+      }
       .cards {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -236,7 +250,7 @@
                 height: 56px;
                 &:hover {
                   cursor: pointer;
-                  background-color: #dbb327;
+                  background-color: #33070773;
                 }
               }
             }
