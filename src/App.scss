@@ -113,6 +113,9 @@
           }
         }
       }
+      .text {
+        color: #000000;
+      }
       .cards {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
