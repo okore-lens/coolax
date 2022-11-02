@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Hero = () => {
+  const scrollHandler = () => {};
   return (
     <div className="hero">
       <div className="wrapper">
@@ -31,7 +32,7 @@ const Hero = () => {
               <FontAwesomeIcon className="icon" icon={faInstagram} />
             </a>
           </div>
-          <button>Get In Touch</button>
+          <button onClick={scrollHandler}>Get In Touch</button>
         </div>
         <div className="slanted-images"></div>
       </div>
